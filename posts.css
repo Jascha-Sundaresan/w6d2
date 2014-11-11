@@ -1,0 +1,70 @@
+html, body, section, article, header, div, p, h3, img, a, time {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.allposts{
+  font-family: "helvetica";
+  width: 500px;
+  margin: 50px auto 0 auto;
+/*  border: 5px solid lightgrey;*/
+  background: lightgrey;
+  padding: 10px;
+}
+
+.post {
+/*  border: 5px solid lightgrey;*/
+  margin-bottom: 5px;
+}
+
+.post-head {
+  border: 2px solid lightgrey;
+  background: white;
+}
+
+.post-body {
+  border: 2px solid lightgrey;
+  background: white;
+}
+
+img {
+  height: 70px;
+  display: inline-block;
+  border: 2px solid blue;
+}
+
+.head-content {
+  position: relative;
+  margin: 20px;
+}
+
+.head-info {
+  position: absolute;
+  top: 0;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+
+.author {
+  margin-top: 0;
+  font-size: 16px;
+  color: blue;
+  margin-bottom: 5px;
+}
+
+.post-time {
+  color: grey;
+}
+
+.post-content {
+  padding: 20px;
+  margin: 0;
+}
+
+.post:last-child {
+  margin: 0;
+}

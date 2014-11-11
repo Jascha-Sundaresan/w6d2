@@ -1,0 +1,135 @@
+html, body, section, article, header, div, p, h3, img, a, time {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: inherit;
+  font: inherit;
+}
+
+/** { border: thin solid cadetblue;}*/
+
+/*general properties*/
+
+body {
+  font-family: "helvetica";
+  background-color: #EEE;
+}
+
+.inside-header h1, .inside-header nav {
+  display: inline-block;
+}
+
+.inside-header, section, footer {
+  width: 860px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/*header properties*/
+
+
+.main-header {
+  background-color: red;
+  color: white;
+  border-bottom: solid 3px black;
+}
+
+.inside-header h1 {
+  font-size: 20px;
+}
+
+.inside-header {
+  border-left: solid 3px black;
+  border-right: solid 3px black;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  text-align: center;
+}
+
+header nav ul li {
+  border-left: solid 3px black;
+  padding: 15px;
+}
+
+nav ul li:last-child {
+  padding-right: 0;
+}
+
+/*main properties*/
+
+section {
+  padding: 20px;
+  background-color: white;
+  border-left: solid 3px lightgrey;
+  border-right: solid 3px lightgrey;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.sidebar {
+  float: left;
+}
+
+.main {
+  padding-left: 20px;
+  overflow: hidden;
+}
+
+.sidebar {
+  padding-right: 15px;
+  width: 200px;
+  border-right: solid 3px lightgrey;
+}
+
+/*footer properties*/
+
+footer {
+  background-color: #DDD;
+  border: solid 3px #AAA;
+  padding: 20px;
+  color: #999;
+}
+
+footer p {
+  display: inline-block;
+}
+
+footer nav ul li {
+  padding: 0 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
