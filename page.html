@@ -8,11 +8,17 @@
     <header class="inside-header">
       <h1>AppAcademy! Students</h1>
       <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Notifications</a></li> 
-          <li><a href="#">Messages</a></li> 
+        <ul class="navbar">
           <li><a href="#">Settings</a></li>    
+          <li><a href="#">Messages</a></li> 
+          <li><a href="#">Notifications</a><span>3</span>
+            <ul class="notifications">
+              <li>Someone liked your picture</li>
+              <li>You have a call</li>
+              <li>New message!</li>
+            </ul>
+          </li> 
+          <li><a href="#">Home</a></li>
         </ul>
       </nav>      
     </header>
@@ -33,7 +39,7 @@
   <footer>
     <p>App Academy</p>
     <nav>
-      <ul>
+      <ul class="navbar">
         <li><a href="#">Privacy</a></li>
         <li><a href="#">About</a></li> 
         <li><a href="#">Home</a></li> 

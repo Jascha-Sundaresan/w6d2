@@ -26,6 +26,11 @@ body {
   margin: 0 auto;
 }
 
+.inside-header {
+  padding-right: 0;
+  width: 880px;
+}
+
 a {
   text-decoration: none;
 }
@@ -59,9 +64,10 @@ nav ul {
   margin: 0;
 }
 
-nav ul li {
+.navbar > li {
   display: inline-block;
   text-align: center;
+  float: right;
 }
 
 header nav ul li {
@@ -69,9 +75,61 @@ header nav ul li {
   padding: 15px;
 }
 
-nav ul li:last-child {
-  padding-right: 0;
+header nav ul li span {
+  margin-left: 5px;
+  font-size: .7em;
+  background-color: black;
+  padding: 3px 7px;
+  border-radius: 15px;
+  
 }
+
+header nav ul li:hover{
+  background: black;
+  position: relative;
+}
+
+header nav ul li:hover span{
+  background: red;
+}
+
+.notifications {
+  display: none;
+  border: none;
+}
+
+header nav ul li:hover .notifications {
+  display: block;
+  text-align: left;
+  position: absolute;
+  background: white;
+  color: black;
+  margin: 0;
+  top: 50px;
+  left: -3px;
+  width: 250px;
+  border-bottom: solid 3px black;
+}
+
+header nav ul li:hover .notifications li {
+  float: none;
+  border: solid 3px black;
+  border-bottom: none;
+  /*height: 30px;*/
+  background-color: white;
+  padding: 6px;
+  display: block;
+
+/*  vertical-align: center;
+*/}
+
+header nav ul li .notifications li:hover {
+  background-color: lightgrey;
+}
+
+/*nav ul li:last-child {
+  padding-right: 0;
+}*/
 
 /*main properties*/
 
