@@ -115,21 +115,15 @@ header nav ul li:hover .notifications li {
   float: none;
   border: solid 3px black;
   border-bottom: none;
-  /*height: 30px;*/
   background-color: white;
   padding: 6px;
   display: block;
-
-/*  vertical-align: center;
-*/}
+}
 
 header nav ul li .notifications li:hover {
   background-color: lightgrey;
 }
 
-/*nav ul li:last-child {
-  padding-right: 0;
-}*/
 
 /*main properties*/
 

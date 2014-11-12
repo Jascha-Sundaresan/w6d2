@@ -1,0 +1,148 @@
+html, body, section, article, header, div, p, h3, img, a, time, ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: inherit;
+  font: inherit;
+}
+
+/* General style */
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body {
+  font-family: "arial";
+  font-size: 13px;
+  position: relative;
+  height: 100vh;
+}
+
+/* Header style */
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+header .navbar {
+  float: right;
+  padding-top: 20px;
+}
+
+header .navbar ul li {
+  padding: 8px 12px;
+  color: #404040;
+}
+
+#box {
+  background-image: url(https://ssl.gstatic.com/gb/images/v1_fd3cfc85.png);
+  background-position: -69px -467px;
+  height: 30px;  
+  width: 30px;
+  padding: 0px, 5px;
+}
+
+header .navbar ul {
+  padding-right: 25px;
+}
+
+header .navbar ul li:last-child {
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  color: white;
+  border-radius: 3px;
+}
+
+
+header .navbar ul li {
+  float: left;
+}
+
+footer .navbar ul li {
+  display: inline-block;
+}
+
+/* Main style */
+
+main {
+  margin: 80px auto;
+  width: 800px;
+}
+
+main img, main form, main .inputs, main p {
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+main img {
+  display: block;
+}
+
+main form {
+  margin-top: 30px;
+  width: 550px;
+}
+
+main [type=text] {
+  width: 100%;
+  height: 30px;
+  border: solid 1px blue;
+}
+
+.inputs {
+  margin-top: 15px;
+  width: 45%;
+}
+
+.inputs button {
+  padding: 7px;
+  background-color: #EEE;
+  border: solid 1px lightgrey;
+  margin: 0 5px;
+}
+
+.inputs button span {
+  color: #333;
+  font-weight: bold;
+}
+
+main p {
+  margin-top: 50px;
+  width: 40%;
+}
+
+
+/* Footer style */
+footer {
+  background-color: #EEE;
+  color: grey;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-right li:last-child {
+  padding-right: 25px;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-left li:first-child {
+  padding-left: 25px;
+}
+
+footer ul li {
+  padding: 15px;
+}
